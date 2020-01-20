@@ -1,4 +1,4 @@
-package com.datazone.datazone;
+package com.datazone;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
