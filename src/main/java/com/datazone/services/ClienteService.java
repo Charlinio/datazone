@@ -11,8 +11,11 @@ import java.util.List;
 @Service
 public class ClienteService implements ICRUD<Cliente> {
 
-    @Autowired
     ClienteRepository repository;
+
+    public ClienteService(ClienteRepository repository) {
+        this.repository = repository;
+    }
 
     @Override
     public List<Cliente> findAll() throws Exception {
